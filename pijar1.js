@@ -25,7 +25,7 @@ mengembalikan panjang array yang baru.*/
 
 // const array1 = [1, 2, 3];
 
-// console.log(array1.unshift(4, 5));
+// console.log(array1.unshift(5, 4));
 
 // console.log(array1);
 
@@ -40,7 +40,7 @@ tertentu dan elemen-elemennya. */
 
 // =================================================================================================
 
-/* 5. Metode splice() pada instance Array mengubah konten array dengan menghapus atau mengganti elemen yang
+/* 5. Metode toSpliced() pada instance Array mengubah konten array dengan menghapus atau mengganti elemen yang
 ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 // const months = ["Jan", "Mar", "Apr", "May"];
@@ -96,7 +96,7 @@ yang ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 // console.log(months);
 
-// months.splice(4, 1, 'May');
+// months.splice(5, 1, 'May');
 
 // console.log(months);
 
