@@ -19,4 +19,4 @@ const hasilCallback = (hasil) => {
     }
 };
 
-searchNama("an", hasilCallback, 3)
+searchNama("zz", hasilCallback, 3)

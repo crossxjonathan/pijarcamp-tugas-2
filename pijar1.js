@@ -3,7 +3,7 @@ mengubah nilai indeks tertentu. Ia mengembalikan array baru dengan elemen pada i
 diganti dengan nilai yang diberikan.*/
 
 // const arr = [1, 2, 3, 4, 5];
-// console.log(arr.with(2, 6)); 
+// console.log(arr.with(4, 6)); 
 // console.log(arr); 
 
 // =================================================================================================
@@ -45,17 +45,8 @@ ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 // const months = ["Jan", "Mar", "Apr", "May"];
 
-
 // const months2 = months.toSpliced(1, 0, "Feb");
 // console.log(months2);
-
-
-// const months3 = months2.toSpliced(2, 2);
-// console.log(months3);
-
-
-// const months4 = months3.toSpliced(1, 1, "Feb", "Mar");
-// console.log(months4);
 
 // console.log(months);
 
@@ -64,11 +55,6 @@ ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 /* 6. Metode toSorted() pada instance Array adalah versi penyalinan metode sort(). Ia mengembalikan array 
 baru dengan elemen yang diurutkan dalam urutan menaik.*/
-
-// const months = ["Mar", "Jan", "Feb", "Dec"];
-// const sortedMonths = months.toSorted();
-// console.log(sortedMonths);
-// console.log(months);
 
 // const values = [1, 10, 21, 2];
 // const sortedValues = values.toSorted((a, b) => a - b);
@@ -81,10 +67,11 @@ baru dengan elemen yang diurutkan dalam urutan menaik.*/
 dikonversi menjadi string menggunakan metode toLocaleString dan string ini dipisahkan oleh string khusus 
 lokal (seperti koma ",").*/
 
-// const array1 = [1, 'a', new Date('21 Dec 1997 14:12:00 UTC')];
-// const localeString = array1.toLocaleString('en', { timeZone: 'UTC' });
+// const numbers = [1000, 2000, 3000];
 
-// console.log(localeString);
+// const formattedNumbers = numbers.toLocaleString();
+
+// console.log(formattedNumbers);
 
 // =================================================================================================
 
@@ -96,18 +83,10 @@ yang ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 // console.log(months);
 
-// months.splice(5, 1, 'May');
-
-// console.log(months);
-
 // =================================================================================================
 
 /* 9. Metode sort() pada instance Array mengurutkan elemen array pada tempatnya dan mengembalikan referensi 
 ke array yang sama, yang sekarang diurutkan. Urutan defaultnya adalah menaik, dibuat dengan mengonversi elemen menjadi string, lalu membandingkan urutan nilai unit kode UTF-16.*/
-
-// const months = ['March', 'Jan', 'Feb', 'Dec'];
-// months.sort();
-// console.log(months);
 
 // const array1 = [1, 30, 4, 21, 100000];
 // array1.sort();
