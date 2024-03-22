@@ -9,14 +9,12 @@ function seleksiNilai(nilaiAwal, nilaiAkhir, dataArray) {
         return;
     }
 
-    const hasil = dataArray.filter(data => data >= nilaiAwal && data <= nilaiAkhir);
+    const hasil = dataArray.filter(data => data >= nilaiAwal && data <= nilaiAkhir).sort((a, b) => a - b);
 
     if (hasil.length === 0) {
         console.log("nilai tidak ditemukan")
         return;
     }
-
-    hasil.sort((a, b) => a - b);
 
     console.log(hasil);
 }

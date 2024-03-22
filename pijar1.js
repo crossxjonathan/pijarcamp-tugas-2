@@ -13,8 +13,8 @@ nilai setiap item dalam array.*/
 
 // const array1 = ['a', 'b', 'c'];
 // const iterator = array1.values();
-
-// for (const value of iterator) {
+// console.log(iterator)
+// for (const value of array1) {
 //   console.log(value);
 // }
 
@@ -45,10 +45,10 @@ ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
 // const months = ["Jan", "Mar", "Apr", "May"];
 
-// const months2 = months.toSpliced(1, 0, "Feb");
+// const months2 = months.toSpliced(1, 0, "Feb","june");
 // console.log(months2);
 
-// console.log(months);
+// console.log(months); // bisa mengembalikan objek yang ada dari array
 
 
 // =================================================================================================
@@ -78,10 +78,10 @@ lokal (seperti koma ",").*/
 /* 8. Metode splice() pada instance Array mengubah konten array dengan menghapus atau mengganti elemen 
 yang ada dan/atau menambahkan elemen baru pada tempatnya.*/
 
-// const months = ['Jan', 'March', 'April', 'June'];
-// months.splice(1, 0, 'Feb');
-
-// console.log(months);
+// const bulan = ['Jan', 'March', 'April', 'June'];
+// const bulan1 = bulan.splice(1, 0, 'Feb','jun');
+// console.log(bulan1)
+// console.log(bulan); tidak mengembalikan nilai dari array
 
 // =================================================================================================
 
